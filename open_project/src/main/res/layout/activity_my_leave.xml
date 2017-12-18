@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.intranet.app.ui.Activity.LMS.MyLeave.MyLeaveActivity">
+
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="2.03"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:weightSum="1">-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@color/button_text_color"-->
+                <!--android:orientation="vertical"-->
+                <!--android:padding="5dp">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView13"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="MY LEAVE"-->
+                    <!--android:textSize="30sp"-->
+                    <!--tools:layout_editor_absoluteX="-195dp"-->
+                    <!--tools:layout_editor_absoluteY="-91dp" />-->
+
+            <!--</LinearLayout>-->
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:background="@color/ampm_text_color"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@color/common_google_signin_btn_text_light_default"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:padding="5dp">-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--android:background="@color/button_text_color"-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:padding="5dp">-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/txt"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Application Type"-->
+                            <!--android:textColor="@android:color/black"-->
+                            <!--android:textSize="20sp" />-->
+
+                        <!--<Spinner-->
+                            <!--android:id="@+id/applicationtype"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:hint="Select...."-->
+                            <!--android:textColor="@android:color/black"-->
+                            <!--android:textColorHint="@android:color/black" />-->
+
+                    <!--</LinearLayout>-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--android:background="@color/button_text_color"-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:padding="5dp">-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/textView12721"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Application Status"-->
+                            <!--android:textColor="@android:color/black"-->
+                            <!--android:textSize="20sp" />-->
+
+                        <!--<Spinner-->
+                            <!--android:id="@+id/applicationstatus"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:hint="Select...."-->
+                            <!--android:textColor="@android:color/black"-->
+                            <!--android:textColorHint="@android:color/black" />-->
+                    <!--</LinearLayout>-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--android:background="@color/button_text_color"-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:padding="5dp">-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/text2"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginBottom="10dp"-->
+                            <!--android:text="Date From"-->
+
+                            <!--android:textColor="@android:color/black"-->
+                            <!--android:textSize="20sp" />-->
+
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_marginBottom="5dp">-->
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/dateFrom"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:hint="Date"-->
+                                <!--android:textSize="20sp" />-->
+
+                            <!--<ImageView-->
+                                <!--android:id="@+id/imgfrom"-->
+                                <!--android:layout_width="20dp"-->
+                                <!--android:layout_height="20dp"-->
+                                <!--android:layout_marginLeft="10dp"-->
+                                <!--android:layout_marginTop="2dp"-->
+                                <!--android:src="@drawable/calendar" />-->
+                        <!--</LinearLayout>-->
+                    <!--</LinearLayout>-->
+
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_marginBottom="5dp"-->
+                        <!--android:background="@color/button_text_color"-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:padding="5dp">-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/text3"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginBottom="10dp"-->
+                            <!--android:text="Date To"-->
+                            <!--android:textColor="@android:color/black"-->
+
+                            <!--android:textSize="20sp" />-->
+
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_marginBottom="5dp">-->
+
+                            <!--<TextView-->
+                                <!--android:id="@+id/dateTo"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:hint="Date"-->
+                                <!--android:textSize="20sp" />-->
+
+                            <!--<ImageView-->
+                                <!--android:id="@+id/imgto"-->
+                                <!--android:layout_width="20dp"-->
+                                <!--android:layout_height="20dp"-->
+                                <!--android:layout_marginLeft="10dp"-->
+                                <!--android:layout_marginTop="2dp"-->
+                                <!--android:src="@drawable/calendar" />-->
+                        <!--</LinearLayout>-->
+                    <!--</LinearLayout>-->
+
+
+
+
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="40dp"-->
+                  <!--android:orientation="vertical">-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/search"-->
+                    <!--android:layout_width="120dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:background="@drawable/red_main_btn"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="Search"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="17dp" />-->
+
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginTop="5dp">-->
+
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/a"-->
+                    <!--android:text="Leave Management System"/>-->
+                <!--<ListView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="94dp"-->
+                    <!--android:id="@+id/list"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/aa"-->
+                    <!--android:text="Annual Leave"/>-->
+                <!--<ListView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="94dp"-->
+                    <!--android:id="@+id/listannualleave"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/aaa"-->
+                    <!--android:text="MedicalLeave"/>-->
+                <!--<ListView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="94dp"-->
+                    <!--android:id="@+id/listmedicalleave"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/aaaa"-->
+                    <!--android:text="UnpaidLeave"/>-->
+                <!--<ListView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="94dp"-->
+                    <!--android:id="@+id/listunoaidleave"/>-->
+            <!--</LinearLayout>-->
+
+            <Button
+                android:id="@+id/lms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/ampm_text_color"
+                android:text="Leave Balance"
+                android:textColor="@color/button_text_color" />
+
+            <Button
+                android:id="@+id/al"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/ampm_text_color"
+                android:text="Annual Leave"
+                android:textColor="@color/button_text_color" />
+
+            <Button
+                android:id="@+id/ml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/ampm_text_color"
+                android:text="Medical Leave"
+                android:textColor="@color/button_text_color" />
+
+            <Button
+                android:id="@+id/ul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/ampm_text_color"
+                android:text="Unpaid Leave"
+                android:textColor="@color/button_text_color" />
+
+        </LinearLayout>
+
+
+
+        <!-- Spinner Dropdown -->
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

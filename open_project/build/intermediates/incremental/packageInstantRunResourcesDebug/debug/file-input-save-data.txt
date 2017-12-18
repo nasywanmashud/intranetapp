@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Wed Dec 13 16:20:04 SGT 2017
+2.base=E\:\\git\\intra_metech\\open_project\\build\\intermediates\\assets\\debug
+0.path=fonts/GothamRounded_Book.otf
+2.baseType=DIRECTORY
+3.base=E\:\\git\\intra_metech\\open_project\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.path=crashlytics-build.properties
+4.base=E\:\\git\\intra_metech\\open_project\\build\\intermediates\\assets\\debug
+count=5
+2.path=fonts/GothamRounded_Medium.otf
+4.set=ASSET
+3.path=fonts/Roboto-Medium.ttf
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=fonts/GothamRounded_Bold.otf
+1.baseType=DIRECTORY
+0.base=E\:\\git\\intra_metech\\open_project\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=E\:\\git\\intra_metech\\open_project\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET

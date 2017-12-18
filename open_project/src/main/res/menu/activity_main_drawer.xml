@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Staff Attendance" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_timesheet"
+            android:icon="@drawable/ic_menu_timesheet"
+            android:title="My Timesheet" />
+        <item
+            android:id="@+id/nav_lms"
+            android:icon="@drawable/ic_menu_lms"
+            android:title="LMS" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Profile" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/action_logout"
+                android:title="@string/action_logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"/>
+        </menu>
+    </item>
+
+
+</menu>
