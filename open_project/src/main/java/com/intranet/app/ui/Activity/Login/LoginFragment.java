@@ -203,6 +203,7 @@ public class LoginFragment extends BaseFragment implements Validator.ValidationL
             pref.setStafflevel(obj.getStaffLevel());
 //            Log.e("stafflevel" , obj.getStaffLevel());
             Intent next = new Intent(getActivity(), Main3Activity.class);
+            getActivity().finish();
             //next.putExtra("username",obj.getUsername());
 
 //            getActivity().startActivity(next);

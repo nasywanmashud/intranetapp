@@ -1,7 +1,0 @@
-#Wed Dec 13 16:22:56 SGT 2017
-base.0=E\:\\git\\intra_metech\\open_project\\build\\intermediates\\transforms\\dexMerger\\debug\\10
-path.1=classes2.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=E\:\\git\\intra_metech\\open_project\\build\\intermediates\\transforms\\dexMerger\\debug\\10

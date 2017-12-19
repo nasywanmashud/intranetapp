@@ -91,7 +91,7 @@ public class LeaveAppListFragment extends BaseFragment  {
         ButterKnife.bind(this, view);
 
         Toolbar toolbar = (Toolbar) view.findViewById(R.id.toolbar100);
-        toolbar.setTitle("Result Page");
+        toolbar.setTitle("Leave Approval");
         toolbar.setTitleTextColor(Color.parseColor("#FBFCFC"));
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {

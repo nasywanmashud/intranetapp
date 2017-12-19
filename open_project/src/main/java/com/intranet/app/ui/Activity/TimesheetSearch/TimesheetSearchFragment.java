@@ -75,8 +75,8 @@ public class TimesheetSearchFragment extends BaseFragment  {
     @Bind(R.id.status1)
     Spinner spinstatus1;
 
-    @Bind(R.id.status2)
-    Spinner spinstatus2;
+//    @Bind(R.id.status2)
+//    Spinner spinstatus2;
 //
 //    @Bind(R.id.update)
 //    Button btnupdate;
@@ -118,7 +118,7 @@ public class TimesheetSearchFragment extends BaseFragment  {
 
 
         Toolbar toolbar = (Toolbar) view.findViewById(R.id.toolbar);
-        toolbar.setTitle("Result Page");
+        toolbar.setTitle("Timesheet");
         toolbar.setTitleTextColor(Color.parseColor("#FBFCFC"));
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -256,7 +256,7 @@ public class TimesheetSearchFragment extends BaseFragment  {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
-                    spinstatus2.setSelection(position);
+//                    spinstatus2.setSelection(position);
 //                    vh.spinappstatus.setSelection(position);
 
             }
@@ -265,7 +265,7 @@ public class TimesheetSearchFragment extends BaseFragment  {
             }
         });
         //vh.spinappstatus.setAdapter(countryCodesAdapter);
-        spinstatus2.setAdapter(countryCodesAdapter);
+//        spinstatus2.setAdapter(countryCodesAdapter);
 
 //
 

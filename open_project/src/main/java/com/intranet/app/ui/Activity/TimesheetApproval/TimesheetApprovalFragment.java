@@ -118,8 +118,8 @@ public class TimesheetApprovalFragment extends BaseFragment{
     @Bind(R.id.statusall)
     Spinner spinappstatusall;
 
-    @Bind(R.id.status2)
-    Spinner spinstatus2;
+//    @Bind(R.id.status2)
+//    Spinner spinstatus2;
     String selectedproject , ott ,selectedstatus , selectedot ,selectedstaff ,selectedtask  , datefrom ,dateto , name;
 
     ArrayList<String> Staff = new ArrayList<String>();
@@ -203,7 +203,7 @@ public class TimesheetApprovalFragment extends BaseFragment{
 //                vh.spinappstatus.setSelection(position);
 //                vh.spinappstatus.setAdapter(countryCodesAdapter);
 
-                spinstatus2.setSelection(position);
+//                spinstatus2.setSelection(position);
 //                    vh.spinappstatus.setSelection(position);
 
             }
@@ -212,7 +212,7 @@ public class TimesheetApprovalFragment extends BaseFragment{
             }
         });
 //        vh.spinappstatus.setAdapter(countryCodesAdapter);
-        spinstatus2.setAdapter(countryCodesAdapter);
+//        spinstatus2.setAdapter(countryCodesAdapter);
 
 //        mCurrentDate = Calendar.getInstance();
 //        day =mCurrentDate.get(Calendar.DAY_OF_MONTH);

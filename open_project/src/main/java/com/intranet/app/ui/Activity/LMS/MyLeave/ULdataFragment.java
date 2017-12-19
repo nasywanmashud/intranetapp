@@ -88,8 +88,7 @@ public class ULdataFragment extends BaseFragment{
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getActivity(),TabLms.class);
-                startActivity(in);
+                getActivity().finish();
             }
         });
 

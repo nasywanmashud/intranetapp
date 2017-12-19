@@ -14,14 +14,11 @@ public class TimesheetSearchFragment$$ViewBinder<T extends com.intranet.app.ui.A
     target.spinappstatusall = finder.castView(view, 2131296685, "field 'spinappstatusall'");
     view = finder.findRequiredView(source, 2131296683, "field 'spinstatus1'");
     target.spinstatus1 = finder.castView(view, 2131296683, "field 'spinstatus1'");
-    view = finder.findRequiredView(source, 2131296684, "field 'spinstatus2'");
-    target.spinstatus2 = finder.castView(view, 2131296684, "field 'spinstatus2'");
   }
 
   @Override public void unbind(T target) {
     target.listView = null;
     target.spinappstatusall = null;
     target.spinstatus1 = null;
-    target.spinstatus2 = null;
   }
 }

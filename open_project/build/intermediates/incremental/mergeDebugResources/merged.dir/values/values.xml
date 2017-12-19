@@ -1354,7 +1354,7 @@
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <item format="float" name="circle_radius_multiplier" type="string">0.82</item>
     <item format="float" name="circle_radius_multiplier_24HourMode" type="string">0.85</item>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">afce7077-c907-42d0-84e3-757a5b158fdb</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">47a8a56c-b7d3-4ef0-b721-b349cd7db27e</string>
     <string name="com_mixpanel_android_close">Close</string>
     <string name="com_mixpanel_android_done">Done</string>
     <string name="com_mixpanel_android_exit">Exit</string>

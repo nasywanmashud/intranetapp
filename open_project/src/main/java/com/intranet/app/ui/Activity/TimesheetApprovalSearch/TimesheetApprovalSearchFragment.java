@@ -7,7 +7,9 @@ package com.intranet.app.ui.Activity.TimesheetApprovalSearch;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -157,6 +159,19 @@ public class TimesheetApprovalSearchFragment extends BaseFragment{
 
         final HashMap<String, String> username = pref.getUsername();
         name = username.get(SharedPrefManager.USERNAME);
+
+
+        Toolbar toolbar = (Toolbar) view.findViewById(R.id.toolbar);
+        toolbar.setTitle("Timesheet");
+        toolbar.setTitleTextColor(Color.parseColor("#FBFCFC"));
+        toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().finish();
+            }
+        });
+
 
 //        final HashMap<String, String> projectname1 = pref.getProjectName();
 //        final String projectname = projectname1.get(SharedPrefManager.PROJECTNAME);

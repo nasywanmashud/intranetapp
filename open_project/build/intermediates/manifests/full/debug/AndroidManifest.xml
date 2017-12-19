@@ -95,7 +95,6 @@
         android:largeHeap="true"
         android:launchMode="singleTop"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/MyCustomTheme"
         android:vmSafeMode="true" >
         <activity

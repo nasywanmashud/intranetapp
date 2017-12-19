@@ -54,12 +54,12 @@
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/black" />
 
-    <Spinner
-        android:id="@+id/status2"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/black" />
+    <!--<Spinner-->
+        <!--android:id="@+id/status2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textColorHint="@android:color/black" />-->
 
 
             <LinearLayout
